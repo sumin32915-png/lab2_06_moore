@@ -3,3 +3,12 @@ RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_06_moore\build\sim\run-
 VCD info: dumpfile wave.vcd opened for output.
 LAB2_PASS moore_cycle checks=23
 C:\Users\sumin\lab2_06_moore\sim\tb_moore_cycle.sv:25: $finish called at 226000 (1ps)
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_06_moore\build\sim\run-e99e7d33d7e3431b8c6dfb4c9704280a\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_FAIL S1 to S2 time=46000
+FATAL: C:\Users\sumin\lab2_06_moore\sim\tb_moore_cycle.sv:17: check failed
+       Time: 46000  Scope: tb_moore_cycle.check
+
+ERROR: 종료 코드 1: C:\Users\sumin\lab2_06_moore\build\sim\run-e99e7d33d7e3431b8c6dfb4c9704280a\simulation.log

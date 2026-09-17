@@ -11,7 +11,7 @@ always @(posedge clk) begin
     else if (enable && advance) begin
         case (value)
             2'b00: value <= 2'b01;
-            2'b01: value <= 2'b10;
+            2'b01: value <= 2'b00;
             default: value <= 2'b00;
         endcase
     end
