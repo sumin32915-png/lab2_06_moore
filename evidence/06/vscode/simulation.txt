@@ -1,0 +1,5 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_06_moore\build\sim\run-c9d17f9579d64d2aaad3a314ea9d6278\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS moore_cycle checks=23
+C:\Users\sumin\lab2_06_moore\sim\tb_moore_cycle.sv:25: $finish called at 226000 (1ps)
